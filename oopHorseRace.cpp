@@ -28,7 +28,7 @@ class Horse{
 				if(i != position){
 					cout<<". ";
 				}else{
-					cout<<i<<" ";
+					cout<<horseID<<" ";
 			
 				}
 			}
@@ -49,7 +49,7 @@ class Race{
 	private:
 		const int trackLength = 10;
 		const int numHorses = 5;
-		Horse* horses[numHorses];
+		Horse horses[5];
 	public:
 		Race(){ 
 			for(int i = 0;i<numHorses;i++){
@@ -62,7 +62,7 @@ class Race{
 				for(int i = 0; i<numHorses; i++){
 					horses[i].advance();
 					horses[i].printLane();
-					if(horses[i].isWinner(){
+					if(horses[i].isWinner()){
 						KEEPGOING = false;
 					}
 				}
