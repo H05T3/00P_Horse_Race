@@ -1,5 +1,5 @@
 #ifndef RACE_H_EXISTS
-#define HORSE_H_EXISTS
+#define RACE_H_EXISTS
 
 class Race{
 	private:
