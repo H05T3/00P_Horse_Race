@@ -1,6 +1,8 @@
 #ifndef RACE_H_EXISTS
 #define RACE_H_EXISTS
 
+#include "horse.h"
+
 class Race{
 	private:
 		const int trackLength = 10;
