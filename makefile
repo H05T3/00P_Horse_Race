@@ -7,7 +7,7 @@ horse.o: horse.cpp horse.h
 race.o: horse.h race.h race.cpp
 	g++ -g -c race.cpp
 
-main.o: horse.h race.h race.cpp
+main.o: horse.h race.h main.cpp
 	g++ -g -c main.cpp
 
 run: horseRace
