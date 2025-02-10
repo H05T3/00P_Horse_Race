@@ -14,3 +14,4 @@ class Race{
 		void run();
 };
 
+#endif
