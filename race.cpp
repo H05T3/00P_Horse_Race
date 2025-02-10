@@ -2,6 +2,7 @@
 #include <string>
 #include <cstdlib>
 #include "race.h"
+#include "horse.h"
 
 using namespace std;
 
